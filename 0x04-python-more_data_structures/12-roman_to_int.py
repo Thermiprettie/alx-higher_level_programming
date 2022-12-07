@@ -9,5 +9,5 @@ def roman_to_int(roman_string):
             rom_t += rom[[roman_string[t]] - 2 * \
                     rom[[roman_string[t - 1]]
         else:
-        rom_t += rom[[roman_string[t]]
+            rom_t += rom[[roman_string[t]]
     return rom_t
