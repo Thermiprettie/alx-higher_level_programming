@@ -7,7 +7,7 @@
 class Square:
     """This is the class."""
 
-    def __init__(self, position=(0, 0)):
+    def __init__(self, size=0, position=(0, 0)):
         """Initializing the square.
 
         Args:
