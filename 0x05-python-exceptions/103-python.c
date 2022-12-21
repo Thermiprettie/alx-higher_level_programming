@@ -5,7 +5,7 @@
 #include <string.h>
 
 /**
- * print_python_list: - print some basic infor about python lists
+ * print_python_list - print some basic infor about python lists
  * @p: pylistobject
  * Return: void or an error message if p is not a valid PyListObject
  */
