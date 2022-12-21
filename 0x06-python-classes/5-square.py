@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-"""create class named Square"""
+"""create class named Square."""
 
 
 class Square:
@@ -28,7 +28,7 @@ class Square:
         self.__size = value
 
     def area(self):
-        """return the area of square"""
+        """return the area of square."""
         return (self.__size * self.__size)
 
     def my_print(self):
