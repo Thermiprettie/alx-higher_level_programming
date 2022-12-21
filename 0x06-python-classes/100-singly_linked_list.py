@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Create the class for a singly-linked list."""
 
 
