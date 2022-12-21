@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-"""Create a clss named Square"""
+
+"""Create a class named Square"""
 
 
 class Square:
@@ -44,11 +45,11 @@ class Square:
         self.__position = value
 
     def area(self):
-        """Retrieve the current area of Square"""
+        """Retrieve the current area of Square."""
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Print the square"""
+        """Print the square."""
         if self.__size == 0:
             print("")
             return
