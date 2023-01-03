@@ -67,9 +67,9 @@ class Rectangle:
     def __repr__(self):
         """ print() or eval() __repr__ method function to return
             ... Rectangle(width, height)
-            """
-            w = str(self.__width)
-            h = str(self.__height)
+        """
+        w = str(self.__width)
+        h = str(self.__height)
 
-            res = "Rectangle(" + w + ", " + h + ")"
-            return res
+        res = "Rectangle(" + w + ", " + h + ")"
+        return res
