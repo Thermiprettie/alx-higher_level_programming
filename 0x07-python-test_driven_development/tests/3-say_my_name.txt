@@ -14,7 +14,7 @@
 	TypeError: first_name must be a string
 
 ::
-	>>> say_my_name(3)
+	>>> say_my_name(3, "Smith")
 	Traceback (most recent call last):
 	...
 	TypeError: first_name must be a string
