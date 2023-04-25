@@ -2,7 +2,6 @@
 // script that reads and prints the content of a file
 
 const fileName = process.argv[2];
-// Include fs module
 const fs = require('fs');
   
 // Use fs.readFile() method to read the file
