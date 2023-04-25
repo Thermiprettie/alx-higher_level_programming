@@ -6,14 +6,14 @@ const fs = require('fs');
 const route = process.argv[2];
 const fileName = process.argv[3];
 
-request(route, (err, res, body) => {
+request(route, function (err, res, body) {
   if (err) {
-	console.log(err);
+    console.log(err);
   } else {
-  // Use fs.writeFile() method to write the file
-  fs.writeFile(fileName, body, 'utf8', (err) => {
-    if (err) {console.log(err);
-    }
-  });
+    fs.writeFile(fileName, body, 'utf8', function (err) {
+      if (err) {
+        console.log(err);
+      }
+    });
   }
 });
