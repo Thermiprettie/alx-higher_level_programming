@@ -5,7 +5,7 @@ const fileName = process.argv[2];
 const fs = require('fs');
   
 // Use fs.readFile() method to read the file
-fs.readFile(fileName, 'utf8', function(err, data) {
+fs.readFile(fileName, 'utf8', (err, data) => {
 	if (err) {
 		// Display the file content
 		console.log(err);
