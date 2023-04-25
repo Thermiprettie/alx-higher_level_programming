@@ -7,10 +7,13 @@ const route = process.argv[2];
 const fileName = process.argv[3];
 
 request(route, (err, res, body) => {
-  if (err) throw err;
-
-// Use fs.writeFile() method to write the file
-  fs.writeFile(file, body, 'utf8', (err) => {
-    if (err) throw err;
+  if (err) {
+	console.log(err);
+  } else {
+  // Use fs.writeFile() method to write the file
+  fs.writeFile(fileName, body, 'utf8', (err) => {
+    if (err) {console.log(err);
+    }
   });
+  }
 });
