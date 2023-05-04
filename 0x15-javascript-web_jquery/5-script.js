@@ -1,5 +1,6 @@
-var itemElem = $("<li></li>").text("Item");
+const $thelist = $('ul.my_list');
+const $additem2gd = $('div#add_item');
 
-$('#add_item').click(function() {
-   $('.my_list').append(itemElem)
-})
+$additem2gd.on('click', () => {
+  $thelist.append('<li>Item</li>');
+});

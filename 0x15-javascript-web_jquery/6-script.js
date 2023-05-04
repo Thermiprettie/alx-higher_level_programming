@@ -1,5 +1,6 @@
-var itemElem = $("<li></li>").text("Item");
+const $headerItem = $('header');
+const $updateHeaderitem = $('div#update_header');
 
-$('#add_item').click(function() {
-   $('.my_list').append(itemElem)
-})
+$updateHeaderitem.on('click', () => {
+  $headerItem.text('New Header!!!');
+});
